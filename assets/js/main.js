@@ -22,6 +22,7 @@
     var previousValue = document.getElementById('previousValue')
     var result = document.getElementById('equal')
     var point = document.getElementById('point');
+    var source = document.getElementById('source');
 
 
 //===========>> Operations <<==============
@@ -68,6 +69,10 @@ zero.addEventListener('click', ()=>{
 // ==============>> others   <<==============
 ac.addEventListener('click', ()=>{
     clean();
+})
+
+source.addEventListener('click',()=>{
+    window.open("https://github.com/floressdi/calculadoraJS")
 })
 
 point.addEventListener('click', ()=>{
@@ -121,14 +126,7 @@ function clean(){
     valorB =0;
 }
 
-// function percen(){
-//     if(valorA = valorA){
-//         valorA = parseFloat(valorA) / 100;
-//     }
-//     else if(valorB = valorB){
-//         valorB = parseFloat(valorB) /100; 
-//     }
-// }
+
 
 
 // Operations 
